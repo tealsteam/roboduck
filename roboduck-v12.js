@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const config = require("./config/auth2.json");
 const fs = require("fs");
 
-let warns = require("./warnings2.json");
+let warns = require("./warnings.json");
 const prefix = "!";
 
 
